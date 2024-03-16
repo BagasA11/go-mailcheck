@@ -83,7 +83,7 @@ Start the server
             };
 
             // send post request to endpoint
-            fetch("/api/email", {
+            fetch("/api/email/json", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
