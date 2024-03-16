@@ -31,9 +31,9 @@ Clone the project
   git clone https://github.com/BagasA11/go-mailcheck.git
 ```
 
-then, you will get folder namd like this:
+then, you will get folder named like this:
 
-`go-mailcheck`
+`\go-mailcheck`
 
 Move project to Go compiler folder
 
