@@ -33,15 +33,11 @@ Clone the project
 
 then, you will get folder namd like this:
 
-```bash
-go-mailcheck
-```
+`go-mailcheck`
 
 Move project to Go compiler folder
 
-``` 
-D:\go\
-```
+`D:\go\`
 
 Open terminal or other CLI, (ig: cmd)
 then, go to the project directory
