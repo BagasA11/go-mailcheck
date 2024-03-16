@@ -125,3 +125,47 @@ An endpoint is the URL to access the service. By default, the endpoint values ma
 Port is the location where the server application is running. By default, the application runs on port 8080. You can override the following attributes:
 
 `PORT={your_port}`
+
+
+## API Reference
+
+### validate email format with raw html
+
+```http
+  POST localhost:{PORT}/api/{ENDPOINT}
+```
+
+#### header
+
+| key | value     | |
+| :-------- | :------- | :------------------------- |
+| `Content-Type` | `multipart/form-data` ||
+
+
+#### body
+
+| key | value     | |
+| :-------- | :------- | :------------------------- |
+| `email` | `someone@gmail.com` ||
+
+
+### validate email format with json
+
+```http
+  POST localhost:{PORT}/api/{ENDPOINT}/json
+```
+
+#### header
+
+| key | value     | |
+| :-------- | :------- | :------------------------- |
+| `Content-Type` | `application/json` ||
+
+
+#### body
+
+```bash
+{
+    "email":"someone@gmail.com"
+}
+```
