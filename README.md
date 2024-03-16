@@ -63,7 +63,7 @@ Start the server
 </head>
 <body>
     
-    <form id="form" action="/api/email" method="post">
+    <form id="form" action="/api/email/json" method="post">
         <label for="email">email:</label>
         <input type="email" id="email" name="email" placeholder = "" required ><br><br>
         <input type="submit" value="submit" >
