@@ -25,8 +25,6 @@ Install go compiler.
 
 https://go.dev/dl/
 
-
-
 Clone the project
 
 ```bash
@@ -137,6 +135,12 @@ Port is the location where the server application is running. By default, the ap
   POST localhost:{PORT}/api/{ENDPOINT}
 ```
 
+#### example url:
+
+```http
+  POST localhost:8080/api/email
+```
+
 #### header
 
 | key | value     | |
@@ -155,6 +159,12 @@ Port is the location where the server application is running. By default, the ap
 
 ```http
   POST localhost:{PORT}/api/{ENDPOINT}/json
+```
+
+#### example url:
+
+```http
+  POST localhost:8080/api/email
 ```
 
 #### header
