@@ -164,7 +164,7 @@ Port is the location where the server application is running. By default, the ap
 #### example url:
 
 ```http
-  POST localhost:8080/api/email
+  POST localhost:8080/api/email/json
 ```
 
 #### header
